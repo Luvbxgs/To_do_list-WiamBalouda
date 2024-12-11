@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+div#main-bg{
+    width: 69vw;
+    height: 790px;
+    background-color: #FFCCE1;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+div#secondary-bg{
+    padding: 5px;
+    background-color: #E195AB;
+    height: 750px;
+    width: 67vw;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    transition: 0.6s ease;
+}
+div#header{
+    width: 67vw;
+    height: 100px;
+    border-radius: 40px 40px 10px 10px ;
+    background-color:#ffcce16c;
+    color: #F2F9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Red Hat Display";
+    position: relative;
+}
+button#add{
+    border-radius: 50%;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: #710e38;
+    background-color: #F2F9FF;
+    position: absolute;
+    right: 30px;
+    transition: 0.6s ease;
+}
+button#add:hover{
+    background-color: #710e38;
+    color: #F2F9FF;
+    cursor: pointer;
+}
+div.blokken{
+    margin-top: 20px;
+    height: 100px;
+    width: 64vw;
+    background-color: #FFF5D7;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+button.remove {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+button.remove > svg {
+    width: 20px;
+    height: 20px;
+    transition: 0.6s ease;
+    fill: #710e38;
+}
+
+button.remove > svg:hover {
+    cursor: pointer;
+    fill: #E195AB;
+    transform: scale(1.1);
+}
+
+button.done{
+    width: 40px;
+    height: 40px;
+    background-color: #F2F9FF;
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 35px;
+    transition: 0.6s ease;
+}
+button.done > svg{
+    fill: transparent;
+    transition: 0.6s ease;
+}
+button.done:hover{
+    background-color: #E195AB;
+}
+button.done:hover > svg{
+    cursor: pointer;
+    display: block;
+    fill: #F2F9FF;
+}
+div.inner-blok{
+    border-radius: 15px;
+    width: 56vw;
+    height: 90px;
+    background-color: #ffcce16c;
+    color: #710e38;
+    font-family: "Red Hat Display";
+    text-align: center;
+}
+div.inner-block
+
