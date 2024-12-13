@@ -33,6 +33,7 @@ div#secondary-bg{
     justify-content: start;
     flex-direction: column;
     transition: 0.6s ease;
+    overflow: scroll;
 }
 div#header{
     width: 67vw;
@@ -142,4 +143,22 @@ li{
     font-family: "Red Hat Display";
     color: #710e38;
     font-size: 20px;
+}
+
+@media only screen and (width: 800px){
+        
+}
+
+div.green{
+    background-color: green;
+}
+div#div{
+    width: 100px;
+    height: 100px;
+    border: 1px dashed black;
+    transition: 0.6s ease;
+}
+li.checked{
+    text-decoration: line-through;
+    transition: ease 0.3s;
 }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/index.css">
+</head>
+<body>
+
+    <div id="div"></div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded',function(){
+            const div = document.getElementById('div');
+        document.addEventListener('keypress',function(e){
+            if( e.key === 'Enter'){
+                div.classList.add("green");
+            }
+        });
+    });
+    </script>
+</body>
+</html>
