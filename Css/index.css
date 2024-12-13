@@ -80,15 +80,24 @@ button.remove > svg {
     width: 20px;
     height: 20px;
     transition: 0.6s ease;
-    fill: #710e38;
 }
 
 button.remove > svg:hover {
     cursor: pointer;
     fill: #E195AB;
-    transform: scale(1.1);
 }
-
+.keep{
+    fill: #F2F9FF;
+    width: 40px;
+    height: 40px;
+    background-color: #E195AB;
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    transition: 0.6s ease;
+}
 button.done{
     width: 40px;
     height: 40px;
@@ -144,21 +153,9 @@ li{
     color: #710e38;
     font-size: 20px;
 }
-
-@media only screen and (width: 800px){
-        
-}
-
-div.green{
-    background-color: green;
-}
-div#div{
-    width: 100px;
-    height: 100px;
-    border: 1px dashed black;
-    transition: 0.6s ease;
-}
 li.checked{
     text-decoration: line-through;
     transition: ease 0.3s;
 }
+
+

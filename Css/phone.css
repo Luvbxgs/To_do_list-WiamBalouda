@@ -1,0 +1,46 @@
+@media only screen and (max-width: 800px){
+
+    div#main-bg{
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    div#secondary-bg{
+        width: 100vw;
+        height: 98vh;
+    }
+
+    div#header{
+        width:100vw;
+        height: 150px;
+        align-items: start; 
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        z-index: 2;
+        border-radius: 0;
+        margin-top: -10px;
+    }
+    div#header > input[type=text]{
+        width: 90vw;
+        font-size: 15px;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    button#add{
+        border-radius: 10px;
+        font-size: 15px;
+        width: 90vw;
+        height: 30px;
+        position: absolute;
+        top: 90px;
+        left: 15px;
+    }
+    div#container-tasks{
+
+    }
+    li{
+        width: 85vw;
+    }
+}
