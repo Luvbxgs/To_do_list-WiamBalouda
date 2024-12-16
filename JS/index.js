@@ -38,12 +38,10 @@ function buttons(li, checkButton, removeButton){
     checkButton.addEventListener('click', function(){
         if(li.classList.contains('checked')){
             li.classList.remove('checked');
-            checkButton.classList.remove('keep');
-            checkButton.classList.add('done');
         }else{
             li.classList.add('checked');
-            checkButton.classList.remove('done');
-            checkButton.classList.add('keep');
+            checkButton
+            
         }
     }); 
 }

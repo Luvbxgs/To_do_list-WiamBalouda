@@ -80,6 +80,7 @@ button.remove > svg {
     width: 20px;
     height: 20px;
     transition: 0.6s ease;
+    fill: #710e38;
 }
 
 button.remove > svg:hover {
@@ -87,10 +88,10 @@ button.remove > svg:hover {
     fill: #E195AB;
 }
 .keep{
-    fill: #F2F9FF;
+    background-color: #E195AB;
+    fill: #ffff;
     width: 40px;
     height: 40px;
-    background-color: #E195AB;
     border-radius: 50%;
     border: 0;
     position: absolute;
@@ -99,9 +100,10 @@ button.remove > svg:hover {
     transition: 0.6s ease;
 }
 button.done{
+    background-color: #ffff;
+    fill: #ffff;
     width: 40px;
     height: 40px;
-    background-color: #ffffff;
     border-radius: 50%;
     border: 0;
     position: absolute;
@@ -109,10 +111,7 @@ button.done{
     bottom: 15px;
     transition: 0.6s ease;
 }
-button.done > svg{
-    fill: transparent;
-    transition: 0.6s ease;
-}
+
 button.done:hover{
     background-color: #E195AB;
 }
@@ -155,6 +154,7 @@ li{
 }
 li.checked{
     text-decoration: line-through;
+    color: #710e3772;
     transition: ease 0.3s;
 }
 
